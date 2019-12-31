@@ -13,3 +13,32 @@ Noticed that the modifictaion resulted in more number of parameters than the ori
 
 - This is my understanding of why it happened:
 ![explanation](RESULTS/explanation.png)
+
+- Some results from the trained model
+
+modified SRGAN model, trained for 930 epochs:
+
+input : ![input_flower](RESULTS/input_SRGAN_flower.jpg)
+
+output: ![output_flower](RESULTS/ouput_SRGAN_flower_930epochs_psnr27.07.jpg) PSNR:27.07
+
+----------
+
+input : ![input_dog](RESULTS/input_SRGAN_dog.jpg)
+
+output: ![output_dog](RESULS/output_SRGAN_100epoch_psnr-20.50.jpg) PSNR:20.50
+
+----------
+
+input : ![input_house](RESULTS/input_SRGAN_house.jpg)
+
+output: ![output_house](RESULTS/output_SRGAN_house_psnr28.57_930epochs.jpg) PSNR:28.57
+
+----------
+
+Pre-trained ESRGAN:
+
+input : ![input_ESRGAN](RESULTS/input_ESRGAN.png)
+
+output: ![output_ESRGAN](RESULTS/output_ESRGAN.png)
+
