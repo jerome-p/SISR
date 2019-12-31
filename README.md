@@ -12,4 +12,4 @@
 Noticed that the modifictaion resulted in more number of parameters than the original model, for upscale values like 4,6,8 etc.
 
 - This is my understanding of why it happened:
-![explanation](images/explanation.png)
+![explanation](RESULTS/explanation.png)
