@@ -9,7 +9,7 @@
 - Trained SRGAN using google colab. Hence could not use a lot of images for training.
 
 - Tried to modify the network to be able to take in any upscale value (not fractional), intead having only exponentials of 2 as is in the paper.
-Noticed that the modifictaion resulted in more number of parameters than the original model, for upscale values like 4,6,8 etc.
+Noticed that the modification resulted in more number of parameters than the original model, for upscale values like 4,6,8 etc.
 
 - This is my understanding of why it happened:
 ![explanation](RESULTS/explanation.png)
