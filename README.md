@@ -26,7 +26,7 @@ output: ![output_flower](RESULTS/ouput_SRGAN_flower_930epochs_psnr27.07.jpg) PSN
 
 input : ![input_dog](RESULTS/input_SRGAN_dog.jpg)
 
-output: ![output_dog](RESULS/output_SRGAN_100epoch_psnr-20.50.jpg) PSNR:20.50
+output: ![output_dog](RESULTS/output_SRGAN_100epoch_psnr-20.50.jpg) PSNR:20.50
 
 ----------
 
