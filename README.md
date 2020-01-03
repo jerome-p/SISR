@@ -3,7 +3,7 @@ Capstone project for a [course on machine learning and deep learning](http://www
 
 - This is an implementation of [Photo-Realistic Single Image Super-Resolution Using a Generative Adversarial Network](https://arxiv.org/abs/1609.04802).Used [left-thomas's implementation of SRGAN](https://github.com/leftthomas/SRGAN).
 
-- Trained a modified SRGAN model using google colab, using the VOC2012 dataset(approx 1000 images) for different upscale values. 
+- Trained a modified SRGAN model using google colab, with the VOC2012 dataset(approx 1000 images) for different upscale values. 
 
 - Tried to modify the network to be able to take in any upscale value (not fractional), instead having only exponentials of 2 as is in the paper, upon doign so, noticed that the modification resulted in more number of parameters than the original model, for upscale values like 4,6,8 etc.
 
