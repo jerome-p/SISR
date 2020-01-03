@@ -14,40 +14,34 @@ tl;dr
 
 Original model uses lesser number of "channels" to upscale the image when compared to the modified model. [Read this to understand more](https://www.inference.vc/holiday-special-deriving-the-subpixel-cnn-from-first-principles/)
 
+----------
+Some results from the trained model
+----------
 
-- Some results from the trained model
+Modified SRGAN model, trained for 930 epochs:
 
-modified SRGAN model, trained for 930 epochs:
+input : ![input_flower](RESULTS/input_SRGAN_flower.jpg)
 
-input : 
-![input_flower](RESULTS/input_SRGAN_flower.jpg)
-
-output: 
-![output_flower](RESULTS/ouput_SRGAN_flower_930epochs_psnr27.07.jpg) PSNR:27.07
+output: ![output_flower](RESULTS/ouput_SRGAN_flower_930epochs_psnr27.07.jpg) PSNR:27.07
 
 ----------
 
-input : 
-![input_dog](RESULTS/input_SRGAN_dog.jpg)
+input : ![input_dog](RESULTS/input_SRGAN_dog.jpg)
 
-output: 
-![output_dog](RESULTS/output_SRGAN_100epoch_psnr-20.50.jpg) PSNR:20.50
+output: ![output_dog](RESULTS/output_SRGAN_100epoch_psnr-20.50.jpg) PSNR:20.50
 
 ----------
 
-input : 
-![input_house](RESULTS/input_SRGAN_house.jpg)
+input : ![input_house](RESULTS/input_SRGAN_house.jpg)
 
-output: 
-![output_house](RESULTS/output_SRGAN_house_psnr28.57_930epochs.jpg) PSNR:28.57
+output: ![output_house](RESULTS/output_SRGAN_house_psnr28.57_930epochs.jpg) PSNR:28.57
 
+----------
 ----------
 
 Pre-trained ESRGAN:
 
-input : 
-![input_ESRGAN](RESULTS/input_ESRGAN.png)
+input : ![input_ESRGAN](RESULTS/input_ESRGAN.png)
 
-output: 
-![output_ESRGAN](RESULTS/output_ESRGAN.png)
+output: ![output_ESRGAN](RESULTS/output_ESRGAN.png)
 
