@@ -37,7 +37,6 @@ input : ![input_house](RESULTS/input_SRGAN_house.jpg)
 output: ![output_house](RESULTS/output_SRGAN_house_psnr28.57_930epochs.jpg) PSNR:28.57
 
 ----------
-----------
 
 Pre-trained ESRGAN:
 
